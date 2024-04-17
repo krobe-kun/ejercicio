@@ -1,0 +1,81 @@
+#fecha
+dia=int(input("ingrese el dia: "))
+mes=int(input("ingrese el mes: "))
+year=int(input("ingrese el año: "))
+
+if year%4==0:
+    if mes==1:
+        if 1<=dia<=31:
+            print("Fecha valida")
+    if mes==2:
+        if 1<=dia<=29:
+            print("Fecha valida")
+    if mes==3:
+        if 1<=dia<=31:
+            print("Fecha valida")
+    if mes==4:
+        if 1<=dia<=30:
+            print("Fecha valida")
+    if mes==5:
+        if 1<=dia<=31:
+            print("Fecha valida")
+    if mes==6:
+        if 1<=dia<=30:
+            print("Fecha valida")
+    if mes==7:
+        if 1<=dia<=31:
+            print("Fecha valida")
+    if mes==8:
+        if 1<=dia<=31:
+            print("Fecha valida")
+    if mes==9:
+        if 1<=dia<=30:
+            print("Fecha valida")
+    if mes==10:
+        if 1<=dia<=31:
+            print("Fecha valida")
+    if mes==11:
+        if 1<=dia<=30:
+            print("Fecha valida")
+    if mes==12:
+        if 1<=dia<=31:
+            print("Fecha valida")
+    elif year%4!=0:
+        if mes==1:
+            if 1<=dia<=31:
+                print("Fecha valida")
+        if mes==2:
+            if 1<=dia<=28:
+                print("Fecha valida")
+        if mes==3:
+            if 1<=dia<=31:
+                print("Fecha valida")
+        if mes==4:
+            if 1<=dia<=30:
+                print("Fecha valida")
+        if mes==5:
+            if 1<=dia<=31:
+                print("Fecha valida")
+        if mes==6:
+            if 1<=dia<=30:
+                print("Fecha valida")
+        if mes==7:
+            if 1<=dia<=31:
+                print("Fecha valida")
+        if mes==8:
+            if 1<=dia<=31:
+                print("Fecha valida")
+        if mes==9:
+            if 1<=dia<=30:
+                print("Fecha valida")
+        if mes==10:
+            if 1<=dia<=31:
+                print("Fecha valida")
+        if mes==11:
+            if 1<=dia<=30:
+                print("Fecha valida")
+        if mes==12:
+            if 1<=dia<=31:
+                print("Fecha valida")
+else:
+    print("Fecha no valida")
